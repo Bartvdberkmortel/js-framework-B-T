@@ -1,6 +1,6 @@
 //Bewerk de foutmeldingen hier
 var messages = {
-    not_empty: ' het veld mag niet leeg zijn',
+    not_empty: ' mag niet leeg zijn',
     too_long: ' is te lang',
     too_short: ' is te kort',
     not_valid: ' is niet toegestaan',
