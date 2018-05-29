@@ -26,6 +26,7 @@ var stemmodule = (function() {
   // Functie voor het bijwerken van het aantal stemmen.
   function updateStemmen() {
     document.getElementById('stemmen').innerHTML = stemmen;
+    document.getElementById('dag').innerHTML = stemspecs.weekdag;
   }
 
   // Initialiseren van het aantal huidigen stemmen en het uitvoeren van de functie wanneer er op de knop geklikt wordt.
