@@ -9,6 +9,7 @@ We hebben een simpele login validatie gemaakt aangezien er op het internet een h
 
 ## Installatie
 Als eerst creëer je een form binnen HTML, het is belangrijk dat je je form een ID geeft en de input velden een class.
+```
    <div class='login'>
       <h2>Login</h2>
       <form id="form">
@@ -17,6 +18,7 @@ Als eerst creëer je een form binnen HTML, het is belangrijk dat je je form een 
           <input type="submit" value="Submit">
         </form>
     </div>
+```
 ## Hoe te gebruiken?
 
 #### Validatie:
