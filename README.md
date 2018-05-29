@@ -7,7 +7,8 @@ Voor DEV in Semester 4 moesten wij gebruik maken van libraries en hier onze eige
 We hebben het internet afgezocht naar een vote system gemaakt in javascript, helaas konden wij geen goede voorbeelden vinden. We hebben ervoor gekozen om ons eigen stem systeem te creëeren zodat we dit zouden kunnen gebruiken in een gedeelte van ons potentiële eindproduct (dashboard).
 We hebben een simpele login validatie gemaakt aangezien er op het internet een heleboel stonden die veel te gecompliceerd en uitgebreid waren voor onze doeleinden.
 
-## Installatie
+## Installatie & Hoe te gebruiken?
+#### Validatie:
 Als eerst creëer je een form binnen HTML, het is belangrijk dat je je form een ID geeft en de input velden een class.
 ```html
    <div class='login'>
@@ -23,10 +24,29 @@ Onderaan voeg je een script tag toe die verwijst naar het externe validatie best
 ```html
    <script src="js/easyvalidatie.js" type="text/javascript"></script>
 ```
-## Hoe te gebruiken?
-
-#### Validatie:
-
 #### Stemsysteem:
+Om de stemmodule in je pagina te krijgen maak je een nieuw HTML bestand waarin je de volgende structuur overneemt. Het is belangrijk dat je voor de "Paragraph" tags en de "Button" de juiste ID's overneemt.
+```html
+  <div>
+    <p id="stemmen"></p>
+    <p id="dag"></p>
+    <button id="stem">Stem</button>  
+  </div>
+```
+
+Onderaan voeg je de volgende twee script tags toe die verwijzen naar de externe JS bestanden.
+```html
+  <script src="js/var.js"></script>
+  <script src="js/app.js"></script>
+```
+
+In het bestand var.js kun je het aantal stemmen toewijzen en het lettertype van de stemmodule aanpassen.
+
+```javascript
+  var stemvariabel = function(){
+    this.stemmen = 10;
+    this.lettertype = "Helvetica";
+  }
+```
 
 Bekijk [hier](http://bartvandenberkmortel.nl/school/framework/) een werkende demo.
