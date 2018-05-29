@@ -10,17 +10,17 @@ document.addEventListener("DOMContentLoaded", function(event) {
 });
 
 // Huidige weekdag
-var d = new Date();
-    var weekday = new Array(7);
-    weekday[0] = "Zondag";
-    weekday[1] = "Maandag";
-    weekday[2] = "Dinsdag";
-    weekday[3] = "Woensdag";
-    weekday[4] = "Donderdag";
-    weekday[5] = "Vrijdag";
-    weekday[6] = "Zaterdag";
+var dag = new Date();
+    var weekdag = new Array(7);
+    weekdag[0] = "Zondag";
+    weekdag[1] = "Maandag";
+    weekdag[2] = "Dinsdag";
+    weekdag[3] = "Woensdag";
+    weekdag[4] = "Donderdag";
+    weekdag[5] = "Vrijdag";
+    weekdag[6] = "Zaterdag";
 
-    var weekdag = weekday[d.getDay()];
+    var huidigeDag = weekdag[dag.getDay()];
 
 // Variabelen uit var.js inladen
 var stemspecs = new stemvariabel();
@@ -40,7 +40,7 @@ var stemmodule = (function() {
   // Functie voor het bijwerken van het aantal stemmen.
   function updateStemmen() {
     document.getElementById('stemmen').innerHTML = stemmen;
-    document.getElementById('dag').innerHTML = weekdag;
+    document.getElementById('dag').innerHTML = huidigeDag;
   }
 
   // Initialiseren van het aantal huidigen stemmen en het uitvoeren van de functie wanneer er op de knop geklikt wordt.
