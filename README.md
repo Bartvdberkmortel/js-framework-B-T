@@ -29,4 +29,4 @@ Onderaan voeg je een script tag toe die verwijst naar het externe validatie best
 
 #### Stemsysteem:
 
-Bekijk [hier](http://www.chartjs.org/) een werkende demo.
+Bekijk [hier](http://bartvandenberkmortel.nl/school/framework/) een werkende demo.
