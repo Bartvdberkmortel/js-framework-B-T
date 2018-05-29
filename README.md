@@ -6,8 +6,17 @@ Voor DEV in Semester 4 moesten wij gebruik maken van libraries en hier onze eige
 ## Motivatie
 We hebben het internet afgezocht naar een vote system gemaakt in javascript, helaas konden wij geen goede voorbeelden vinden. We hebben ervoor gekozen om ons eigen stem systeem te creëeren zodat we dit zouden kunnen gebruiken in een gedeelte van ons potentiële eindproduct (dashboard).
 We hebben een simpele login validatie gemaakt aangezien er op het internet een heleboel stonden die veel te gecompliceerd en uitgebreid waren voor onze doeleinden. 
-## Installatie
 
+## Installatie
+Als eerst creëer je een form binnen HTML, het is belangrijk dat je je form een ID geeft en de input velden een class.
+   <div class='login'>
+      <h2>Login</h2>
+      <form id="form">
+          <input name='username' placeholder='Username' type='text' class="v">
+          <input name='password' placeholder='Password' type='text' class="v">
+          <input type="submit" value="Submit">
+        </form>
+    </div>
 ## Hoe te gebruiken?
 
 #### Validatie:
