@@ -32,7 +32,7 @@ function check()
         }
         else
         {
-            alert ("krijg aids");
+            alert ("gelukt!");
         }
     }
     return true;
