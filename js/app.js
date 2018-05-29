@@ -8,16 +8,15 @@ document.addEventListener("DOMContentLoaded", function(event) {
   WijzigLettertype();
 
 });
-
 //chart.js canvas 
 var ctx = document.getElementById("myChart").getContext('2d');
 var myChart = new Chart(ctx, {
     type: 'bar',
     data: {
-        labels: huidigeDag,
+        labels: ["Maandag", "Dinsdag", "Woensdag", "Donderdag", "Vrijdag", "Zaterdag", "Zondag"],
         datasets: [{
-            label: '# of Votes',
-            data: [12, 19, 3, 5, 2, 3],
+            label: 'Aantal stemmen',
+            data: [12, 19, 3, 5, 2, 3, 6],
             backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',
                 'rgba(54, 162, 235, 0.2)',
@@ -47,6 +46,8 @@ var myChart = new Chart(ctx, {
         }
     }
 });
+
+
 
 // Huidige weekdag
 var dag = new Date();
@@ -97,3 +98,4 @@ var stemmodule = (function() {
 })();
 
 stemmodule.init();
+
