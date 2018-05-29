@@ -13,11 +13,11 @@ function check()
 {
     //classes met input velden worden door simpel validation gecheckt
     var fields = document.getElementsByClassName('v');
-    
-    
+
+
     //Loopje door de validatie resultaten
     for(var i=0;i<fields.length;i++){
-        
+
         //check of alle velden zijn ingevuld
         if(fields[i].value == ""){
             alert(fields[i].name + messages.not_empty);
@@ -34,8 +34,6 @@ function check()
         {
             alert ("krijg aids");
         }
-    }   
+    }
     return true;
 }
-
-
