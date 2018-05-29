@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 //chart.js canvas 
 var ctx = document.getElementById("myChart").getContext('2d');
 var myChart = new Chart(ctx, {
-    type: 'bar',
+    type: 'line',
     data: {
         labels: ["Maandag", "Dinsdag", "Woensdag", "Donderdag", "Vrijdag", "Zaterdag", "Zondag"],
         datasets: [{

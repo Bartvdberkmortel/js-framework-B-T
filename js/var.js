@@ -1,4 +1,4 @@
 var stemvariabel = function(){
-  this.stemmen = 346;
+  this.stemmen = 10;
   this.lettertype = "Helvetica";
 }
