@@ -9,7 +9,7 @@ We hebben een simpele login validatie gemaakt aangezien er op het internet een h
 
 ## Installatie
 Als eerst creëer je een form binnen HTML, het is belangrijk dat je je form een ID geeft en de input velden een class.
-```
+```html
    <div class='login'>
       <h2>Login</h2>
       <form id="form">
@@ -18,6 +18,10 @@ Als eerst creëer je een form binnen HTML, het is belangrijk dat je je form een 
           <input type="submit" value="Submit">
         </form>
     </div>
+```
+Onderaan voeg je een script tag toe die verwijst naar het externe validatie bestand
+```html
+   <script src="js/easyvalidatie.js" type="text/javascript"></script>
 ```
 ## Hoe te gebruiken?
 
