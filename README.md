@@ -9,6 +9,6 @@ Voor DEV in Semester 4 moesten wij gebruik maken van libraries en hier onze eige
 
 ## Hoe te gebruiken?
 
-### Validatie
+#### * Validatie
 
-### Stemsysteem
+#### * Stemsysteem
