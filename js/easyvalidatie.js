@@ -32,7 +32,8 @@ function check()
         }
         else
         {
-            alert ("gelukt!");
+            // alert ("gelukt!");
+            window.open("stemmen.html");
         }
     }
     return true;
