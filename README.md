@@ -3,7 +3,7 @@
 ## Korte inhoud
 Voor DEV in Semester 4 moesten wij gebruik maken van libraries en hier onze eigen draai aan geven. Wij (Bart & Tim) hebben ervoor gekozen om iets te creëeren waar we in onze proftaak in theorie iets aan zouden hebben. We hebben er als groep voor gekozen om een clickable prototype als eindproduct op te leveren, en dus geen compleet geprogrammeerde landingspagina. We hebben een bestaande library gebruikt [Chart.js](http://www.chartjs.org/) om een grafiek te creëeren, deze library hebben we geimplementeerd in ons eigen POC. Uiteindelijk hebben wij dus een klein stemplatform gemaakt waarin je kunt zien hoeveel stemmen je video per dag heeft gekregen.
 
-Dit gaat om een prototype voor het dashboard en de stemmodule. Mocht je hier zelf mee aan de slag willen. Dan zal je het prototype verder uit moeten werken.
+Dit gaat om een prototype voor het dashboard en de stemmodule. Voel je vrij om hier je eigen draai aan te geven of mogelijk uit te bereiden.
 
 ## Motivatie
 We hebben het internet afgezocht naar een vote system gemaakt in javascript, helaas konden wij geen goede voorbeelden vinden. We hebben ervoor gekozen om ons eigen stem systeem te creëeren zodat we dit zouden kunnen gebruiken in een gedeelte van ons potentiële eindproduct (dashboard).
