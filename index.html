@@ -1,22 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html>
 <head>
-    <title>Validatie</title>
-    <link href="css/style.css" type="text/css" rel="stylesheet">
-
+<meta charset="UTF-8">
+<link rel="stylesheet" href="stylelogin.css">
+<title>Title of the document</title>
 </head>
 
 <body>
-    <div class='login'>
-      <h2>Login</h2>
-      <form id="form">
-          <input name='username' placeholder='Username' type='text' class="v">
-          <input name='password' placeholder='Password' type='text' class="v">
-          <input type="submit" value="Submit">
-        </form>
-    </div>
-
-    <script src="js/easyvalidatie.js" type="text/javascript"></script>
+    <div class="login">
+    <h2>Stem nu!</h2>
+<form name="loginform" onSubmit="return validateForm();" action="stemmen.html" method="post">
+    <input type="text" name="usr" placeholder="username" class="v"> 
+    <input type="password" name="pword" placeholder="password" class="v">
+    <input type="submit" value="Login"/>
+</form>
+        </div>
+    
+<script>
+    function validateForm() {
+        var un = document.loginform.usr.value;
+        var pw = document.loginform.pword.value;
+        var username = "username"; 
+        var password = "password";
+        if ((un == username) && (pw == password)) {
+            return true;
+        }
+        else {
+            alert ("Inlogpoging niet goedgekeurd");
+            return false;
+        }
+  }
+</script>
 </body>
+
 </html>
+
+
+
+
