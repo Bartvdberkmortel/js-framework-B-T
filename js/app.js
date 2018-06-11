@@ -8,15 +8,15 @@ document.addEventListener("DOMContentLoaded", function(event) {
   WijzigLettertype();
 
 });
-//chart.js canvas 
+//chart.js canvas
 var ctx = document.getElementById("myChart").getContext('2d');
 var myChart = new Chart(ctx, {
-    type: 'line',
+    type: 'bar',
     data: {
-        labels: ["Maandag", "Dinsdag", "Woensdag", "Donderdag", "Vrijdag", "Zaterdag", "Zondag"],
+        labels: [huidigeDag],
         datasets: [{
             label: 'Aantal stemmen',
-            data: [12, 19, 3, 5, 2, 3, 6],
+            data: [1],
             backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',
                 'rgba(54, 162, 235, 0.2)',
@@ -98,4 +98,3 @@ var stemmodule = (function() {
 })();
 
 stemmodule.init();
-
